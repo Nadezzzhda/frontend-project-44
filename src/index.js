@@ -6,6 +6,8 @@ const userName = () => {
   return name
 }
 
+export const random10 = () => Math.round(Math.random() * 10)
+
 export const questionForUser = (userName, questionText, generateData) => {
   console.log(questionText)
   for (let i = 1; i <= 3; i += 1) {

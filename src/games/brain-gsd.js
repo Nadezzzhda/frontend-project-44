@@ -1,3 +1,5 @@
+import { random10 } from '../index.js'
+
 export const questionText = 'Find the greatest common divisor of given numbers.'
 
 const getGsd = (a, b) => {
@@ -10,9 +12,9 @@ const getGsd = (a, b) => {
 }
 
 export const generateGsdData = () => {
-  const commonMult = Math.round(Math.random() * 10)
-  const numberA = Math.round(Math.random() * 10) * commonMult
-  const numberB = Math.round(Math.random() * 10) * commonMult
+  const commonMult = random10()
+  const numberA = random10() * commonMult
+  const numberB = random10() * commonMult
   const question = `${numberA} ${numberB}`
   const correctAnswer = String(getGsd(numberA, numberB))
   return [question, correctAnswer]
