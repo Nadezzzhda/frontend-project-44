@@ -9,6 +9,8 @@ https://asciinema.org/a/KfhCFZtCA3Ik2BmY -- asciinema Brain-Even
 
 https://asciinema.org/a/TOrSeYHso0qGFVsd -- asciinema Brain-Calc
 
+https://asciinema.org/a/TmdUNilYRX4ozxoj -- asciinema Brain-Gsd
+
 make install -- установка зависимостей (пакетов / библиотек / программ и т.д.).
 
 make brain-games -- запуск игры Brain Games через node.
