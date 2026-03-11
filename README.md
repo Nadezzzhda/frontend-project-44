@@ -12,7 +12,9 @@ https://asciinema.org/a/TOrSeYHso0qGFVsd -- asciinema Brain-Calc
 
 https://asciinema.org/a/TmdUNilYRX4ozxoj -- asciinema Brain-Gsd
 
-https://asciinema.org/a/Kt8VsZwYhpp8gUDa -- asciinema Brain-Progression
+https://asciinema.org/a/Kt8VsZwYhpp8gUDa -- asciinema Brain-Progression 
+
+https://asciinema.org/a/blzAy1CC0WlciInU -- asciinema Brain-Prime
 
 
 
