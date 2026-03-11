@@ -13,7 +13,7 @@ export const questionForUser = (userName, questionText, generateData) => {
   for (let i = 1; i <= 3; i += 1) {
     const [question, correctAnswer] = generateData()
 
-    console.log(`Question: ${question}!`)
+    console.log(`Question: ${question}`)
 
     const userAnswer = readlineSync.question('Your answer: ')
 
