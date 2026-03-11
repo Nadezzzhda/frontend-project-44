@@ -6,18 +6,18 @@ export const generateProgressionData = () => {
   const start = Math.round(Math.random() * 20)
   const step = random10()
   const missedElement = Math.round(Math.random() * 9)
-  let progression = ''
+  const progression = []
   let correctAnswer = ''
   for (let i = 0; i <= 9; i += 1) {
     let currentElement = start + i * step
-    if (i !== missedElement) {
-      progression = `${progression} ${currentElement}`
-    }
-    else {
-      progression = `${progression} ..`
+    if (i === missedElement) {
+      progression.push('..')
       correctAnswer = String(currentElement)
     }
+    else {
+      progression.push(currentElement)
+    }
   }
-  const question = progression
+  const question = progression.join(' ')
   return [question, correctAnswer]
 }
