@@ -5,7 +5,9 @@
 
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Nadezzzhda_frontend-project-44&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Nadezzzhda_frontend-project-44)
 
-https://asciinema.org/a/KfhCFZtCA3Ik2BmY
+https://asciinema.org/a/KfhCFZtCA3Ik2BmY -- asciinema Brain-Even
+
+https://asciinema.org/a/TOrSeYHso0qGFVsd -- asciinema Brain-Calc
 
 make install -- установка зависимостей (пакетов / библиотек / программ и т.д.).
 
