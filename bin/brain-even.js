@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
-import greetings from '../src/brain-games.js'
-import userName from '../src/cli.js'
-import questionForUser from '../src/brain-even.js'
+import greetings from '../src/games/brain-games.js'
+import userName from '../src/index.js'
+import { questionForUser } from '../src/index.js'
+import { questionText, generateEvenData } from '../src/games/brain-even.js'
 
 greetings()
 const name = userName()
-questionForUser(name)
+questionForUser(name, questionText, generateEvenData)
