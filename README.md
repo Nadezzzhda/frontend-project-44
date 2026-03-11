@@ -29,7 +29,7 @@
     npm link
 
 
-### Запуск игр
+## Запуск игр
 
 Для запуска любой игры используйте соответствующую команду в терминале:
 
@@ -61,7 +61,7 @@ https://asciinema.org/a/blzAy1CC0WlciInU -- пример игры brain-prime
 
 
 
-####
+## Make
 
 make install -- установка зависимостей (пакетов / библиотек / программ и т.д.).
 
@@ -70,5 +70,4 @@ make brain-games -- запуск игры Brain Games через node (brain-eve
 make publish -- публикация пакетa (игры) в npm-репозитории.
 
 make lint -- запуск линтера ESLint.
-
 
